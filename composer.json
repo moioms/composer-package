@@ -1,0 +1,17 @@
+{
+    "name": "composer/package",
+    "autoload": {
+        "psr-4": {
+            "Composer\\Package\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Omar Lahouaichri",
+            "email": "lahouaichri.omar@gmail.com"
+        }
+    ],
+    "require": {
+        "gipetto/cowsay": "^1.1"
+    }
+}
